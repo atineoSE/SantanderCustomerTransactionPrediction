@@ -1,5 +1,5 @@
 # SantaderCustomerTransactionPrediction
-Project for ML on the Santander Customer Transaction Prediction dataset.
+Project for ML on the Santander Customer Transaction Prediction Kaggle dataset.
 
 ## Getting the data
 

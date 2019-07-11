@@ -120,17 +120,6 @@ func evaluateXgbModels(xgb1: XgbClassifier1, xgb2: XgbClassifier2, xgb3: XgbClas
     print("Mean error: \(diffColumn.mean()!); Max error: \(diffColumn.max()!); Std error: \(diffColumn.std()!)")
 }
 
-func evaluateBoostedTree_100_000(model: SantanderBoostedTreeRegressor_100_000_it, input: MLDataTable) {
-    let rows = input.rows
-    let inputs = rows.map { makeInputSantanderBoostedTree_100_000(row: $0) }
-    let predictionsArray = (try! model.predictions(inputs: inputs)).map { $0.target }
-    let predictionsColumn = MLDataColumn(predictionsArray)
-    let expectedValuesColumn = input["target"].map { Double($0.intValue!) }
-    let diffColumn = (expectedValuesColumn - predictionsColumn).map { abs($0) }
-
-    print("Mean error: \(diffColumn.mean()!); Max error: \(diffColumn.max()!); Std error: \(diffColumn.std()!)")
-}
-
 func evaluateBoostedTree_20_000(model: SantanderBoostedTreeRegressor_20_000_it, input: MLDataTable) {
     let rows = input.rows
     let inputs = rows.map { makeInputSantanderBoostedTree_20_000(row: $0) }
@@ -190,7 +179,7 @@ func createDecisionTreeModel(trainingData: MLDataTable, targetColumn: String, fe
 func createBoostedTreeModel(trainingData: MLDataTable, validationData: MLDataTable, targetColumn: String, featureColumns: [String]) -> MLBoostedTreeRegressor? {
     let parameters = MLBoostedTreeRegressor.ModelParameters(validationData: validationData,
                                                             maxDepth: 6,
-                                                            maxIterations: 2500,
+                                                            maxIterations: 20000,
                                                             minLossReduction: 0.0,
                                                             minChildWeight: 0.1,
                                                             randomSeed: 42,
@@ -248,16 +237,10 @@ func dump(table: MLDataTable, comment: String) {
 // MARK: main
 let start = CFAbsoluteTimeGetCurrent()
 
-let imac = true
 let prefixRows: Int? = nil
-let basePath: String
-if imac {
-    basePath = "/Volumes/Data/ML_data_catalina/SantanderCustomerTransactionPrediction/"
-} else {
-    basePath = "/Users/adriantineo/dev/ML_data/SantanderCustomerTransactionPrediction/"
-}
-let train = true
-let evaluate = false
+let basePath = "/Volumes/Data/ML_data_catalina/SantanderCustomerTransactionPrediction/"
+let train = false
+let evaluate = true
 
 // MARK: train
 if train {
@@ -323,7 +306,7 @@ if train {
 if evaluate {
     // 1. Import data
     let testSetPath = URL(fileURLWithPath: basePath + "SantanderCreateML/SantanderCreateML/Data/test_pre.csv")
-    //let testSetPath = URL(fileURLWithPath: "/Users/adriantineo/dev/ML_data/SantanderCustomerSatisfaction/data/train_head.csv")
+    //let testSetPath = URL(fileURLWithPath: basePath + "data/train_head.csv")
     var parsingOptions = MLDataTable.ParsingOptions()
     parsingOptions.delimiter = ","
     parsingOptions.lineTerminator = "\n"
@@ -336,16 +319,12 @@ if evaluate {
     let xgb3 = XgbClassifier3()
     let xgb4 = XgbClassifier4()
     let xgb5 = XgbClassifier5()
-    let boostedTree_100_000 = SantanderBoostedTreeRegressor_100_000_it()
     let boostedTree_20_000 = SantanderBoostedTreeRegressor_20_000_it()
     let boostedTree_2_500 = SantanderBoostedTreeRegressor_2_500_it()
     
     // 3. Evaluate models
-    print("EVALUATE XGB CLASSIFIERS AVERAGE PREDICTIONS")
-    evaluateXgbModels(xgb1: xgb1, xgb2: xgb2, xgb3: xgb3, xgb4:xgb4, xgb5:xgb5, input: testTable)
-    
-    print("EVALUATE BOOSTED TREE 100_000")
-    evaluateBoostedTree_100_000(model: boostedTree_100_000, input: testTable)
+    //print("EVALUATE XGB CLASSIFIERS AVERAGE PREDICTIONS")
+    //evaluateXgbModels(xgb1: xgb1, xgb2: xgb2, xgb3: xgb3, xgb4:xgb4, xgb5:xgb5, input: testTable)
     print("EVALUATE BOOSTED TREE 20_000")
     evaluateBoostedTree_20_000(model: boostedTree_20_000, input: testTable)
     print("EVALUATE BOOSTED TREE 2_500")

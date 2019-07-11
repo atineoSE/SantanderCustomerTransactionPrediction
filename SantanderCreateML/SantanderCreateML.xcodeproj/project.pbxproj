@@ -13,7 +13,6 @@
 		0B9641D622D74700000DBF5F /* XgbClassifier5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B9641D122D74700000DBF5F /* XgbClassifier5.mlmodel */; };
 		0B9641D722D74700000DBF5F /* XgbClassifier2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B9641D222D74700000DBF5F /* XgbClassifier2.mlmodel */; };
 		0B9641D822D74700000DBF5F /* XgbClassifier4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B9641D322D74700000DBF5F /* XgbClassifier4.mlmodel */; };
-		0BC1EFFA229E790100CB6EE1 /* SantanderBoostedTreeRegressor_100_000_it.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1EFF8229E790100CB6EE1 /* SantanderBoostedTreeRegressor_100_000_it.mlmodel */; };
 		0BC1EFFB229E790100CB6EE1 /* SantanderBoostedTreeRegressor_20_000_it.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1EFF9229E790100CB6EE1 /* SantanderBoostedTreeRegressor_20_000_it.mlmodel */; };
 		0BC1EFFD229E86CB00CB6EE1 /* SantanderBoostedTreeRegressor_2_500_it.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1EFFC229E86CB00CB6EE1 /* SantanderBoostedTreeRegressor_2_500_it.mlmodel */; };
 		0BC1F002229EBDD700CB6EE1 /* boosted_tree_model_utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1F001229EBDD700CB6EE1 /* boosted_tree_model_utils.swift */; };
@@ -40,7 +39,6 @@
 		0B9641D122D74700000DBF5F /* XgbClassifier5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = XgbClassifier5.mlmodel; path = ../../../python/Models/XgbClassifier5.mlmodel; sourceTree = "<group>"; };
 		0B9641D222D74700000DBF5F /* XgbClassifier2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = XgbClassifier2.mlmodel; path = ../../../python/Models/XgbClassifier2.mlmodel; sourceTree = "<group>"; };
 		0B9641D322D74700000DBF5F /* XgbClassifier4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = XgbClassifier4.mlmodel; path = ../../../python/Models/XgbClassifier4.mlmodel; sourceTree = "<group>"; };
-		0BC1EFF8229E790100CB6EE1 /* SantanderBoostedTreeRegressor_100_000_it.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SantanderBoostedTreeRegressor_100_000_it.mlmodel; path = SantanderCreateML/Models/SantanderBoostedTreeRegressor_100_000_it.mlmodel; sourceTree = SOURCE_ROOT; };
 		0BC1EFF9229E790100CB6EE1 /* SantanderBoostedTreeRegressor_20_000_it.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SantanderBoostedTreeRegressor_20_000_it.mlmodel; path = SantanderCreateML/Models/SantanderBoostedTreeRegressor_20_000_it.mlmodel; sourceTree = SOURCE_ROOT; };
 		0BC1EFFC229E86CB00CB6EE1 /* SantanderBoostedTreeRegressor_2_500_it.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SantanderBoostedTreeRegressor_2_500_it.mlmodel; path = SantanderCreateML/Models/SantanderBoostedTreeRegressor_2_500_it.mlmodel; sourceTree = SOURCE_ROOT; };
 		0BC1F001229EBDD700CB6EE1 /* boosted_tree_model_utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boosted_tree_model_utils.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				0B9641D122D74700000DBF5F /* XgbClassifier5.mlmodel */,
 				0BC1EFFC229E86CB00CB6EE1 /* SantanderBoostedTreeRegressor_2_500_it.mlmodel */,
 				0BC1EFF9229E790100CB6EE1 /* SantanderBoostedTreeRegressor_20_000_it.mlmodel */,
-				0BC1EFF8229E790100CB6EE1 /* SantanderBoostedTreeRegressor_100_000_it.mlmodel */,
 			);
 			path = MLModels;
 			sourceTree = "<group>";
@@ -159,7 +156,6 @@
 			files = (
 				0BC1F002229EBDD700CB6EE1 /* boosted_tree_model_utils.swift in Sources */,
 				0B9641D422D74700000DBF5F /* XgbClassifier1.mlmodel in Sources */,
-				0BC1EFFA229E790100CB6EE1 /* SantanderBoostedTreeRegressor_100_000_it.mlmodel in Sources */,
 				0BC1F01922A003AF00CB6EE1 /* xgb_classifiers_utils.swift in Sources */,
 				0B9641D822D74700000DBF5F /* XgbClassifier4.mlmodel in Sources */,
 				0B521641229849DD007C2D72 /* main.swift in Sources */,

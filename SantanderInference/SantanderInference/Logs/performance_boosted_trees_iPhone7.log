@@ -1,0 +1,31 @@
+Test Suite 'Selected tests' started at 2019-05-29 19:21:08.218
+Test Suite 'SantanderInferenceTests.xctest' started at 2019-05-29 19:21:08.219
+Test Suite 'SantanderInferenceTests' started at 2019-05-29 19:21:08.219
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_100_000_Performance]' started.
+2019-05-29 19:24:20.565368+0200 SantanderInference[640:300440] XPC connection interrupted
+SantanderBoostedTreeRegressor_100_000_it
+Number of predictions for class zero: 9184
+Number of predictions for class one: 816
+Number of failed predictions: 0
+Average time per prediction is 0.009853729093074798
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_100_000_Performance]' passed (353.137 seconds).
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_20_000_Performance]' started.
+SantanderBoostedTreeRegressor_20_000_it
+Number of predictions for class zero: 9057
+Number of predictions for class one: 943
+Number of failed predictions: 0
+Average time per prediction is 0.00227147399187088
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_20_000_Performance]' passed (330.116 seconds).
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_2_500_Performance]' started.
+SantanderBoostedTreeRegressor_2_500_it
+Number of predictions for class zero: 9534
+Number of predictions for class one: 466
+Number of failed predictions: 0
+Average time per prediction is 0.0008359305024147034
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_2_500_Performance]' passed (330.780 seconds).
+Test Suite 'SantanderInferenceTests' passed at 2019-05-29 19:38:02.254.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 1014.033 (1014.035) seconds
+Test Suite 'SantanderInferenceTests.xctest' passed at 2019-05-29 19:38:02.254.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 1014.033 (1014.036) seconds
+Test Suite 'Selected tests' passed at 2019-05-29 19:38:02.255.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 1014.033 (1014.037) seconds

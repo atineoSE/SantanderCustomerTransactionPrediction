@@ -1,0 +1,37 @@
+Test Suite 'Selected tests' started at 2019-05-30 16:43:00.383
+Test Suite 'SantanderInferenceTests.xctest' started at 2019-05-30 16:43:00.384
+Test Suite 'SantanderInferenceTests' started at 2019-05-30 16:43:00.384
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_100_000_Performance]' started.
+SantanderBoostedTreeRegressor_100_000_it
+Number of predictions for class zero: 9184
+Number of predictions for class one: 816
+Number of failed predictions: 0
+Average time per prediction is 0.007644883108139038
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_100_000_Performance]' passed (206.376 seconds).
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_20_000_Performance]' started.
+SantanderBoostedTreeRegressor_20_000_it
+Number of predictions for class zero: 9057
+Number of predictions for class one: 943
+Number of failed predictions: 0
+Average time per prediction is 0.002207238805294037
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_20_000_Performance]' passed (160.983 seconds).
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_2_500_Performance]' started.
+SantanderBoostedTreeRegressor_2_500_it
+Number of predictions for class zero: 9534
+Number of predictions for class one: 466
+Number of failed predictions: 0
+Average time per prediction is 0.0009379380941390991
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testBoostedTree_2_500_Performance]' passed (146.846 seconds).
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testXGBClassifiersPerformance]' started.
+XGBClassifiers
+Number of predictions for class zero: 9529
+Number of predictions for class one: 471
+Number of failed predictions: 0
+Average time per prediction is 0.005156698000431061
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testXGBClassifiersPerformance]' passed (195.025 seconds).
+Test Suite 'SantanderInferenceTests' passed at 2019-05-30 16:54:49.618.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 709.231 (709.234) seconds
+Test Suite 'SantanderInferenceTests.xctest' passed at 2019-05-30 16:54:49.618.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 709.231 (709.235) seconds
+Test Suite 'Selected tests' passed at 2019-05-30 16:54:49.619.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 709.231 (709.236) seconds

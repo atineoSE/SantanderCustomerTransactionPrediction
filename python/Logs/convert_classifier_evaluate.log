@@ -1,0 +1,42 @@
+              target             f0             f1  ...           f197           f198           f199
+count  200000.000000  200000.000000  200000.000000  ...  200000.000000  200000.000000  200000.000000
+mean        0.100490      10.679914      -1.627622  ...       8.908158      15.870720      -3.326537
+std         0.300653       3.040051       4.050044  ...       0.921625       3.010945      10.438015
+min         0.000000       0.408400     -15.043400  ...       5.960600       6.299300     -38.852800
+25%         0.000000       8.453850      -4.740025  ...       8.252800      13.829700     -11.208475
+50%         0.000000      10.524750      -1.608050  ...       8.888200      15.934050      -2.819550
+75%         0.000000      12.758200       1.358625  ...       9.593300      18.064725       4.836800
+max         1.000000      20.315000      10.376800  ...      12.000400      26.079100      28.500700
+
+[8 rows x 201 columns]
+Converting xgb_fold1.dat
+/Users/adriantineo/dev/python/virtualenv/coreml3_pr/lib/python3.6/site-packages/sklearn/base.py:306: UserWarning: Trying to unpickle estimator LabelEncoder from version 0.20.3 when using version 0.21.2. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+coreml prediction metrics
+{'samples': 200000, 'rmse': 0.04104875150354759, 'max_error': 1}
+
+
+Converting xgb_fold2.dat
+coreml prediction metrics
+{'samples': 200000, 'rmse': 0.033689761055846035, 'max_error': 1}
+
+
+Converting xgb_fold3.dat
+coreml prediction metrics
+{'samples': 200000, 'rmse': 0.03209361307176243, 'max_error': 1}
+
+
+Converting xgb_fold4.dat
+coreml prediction metrics
+{'samples': 200000, 'rmse': 0.031859064644147984, 'max_error': 1}
+
+
+Converting xgb_fold5.dat
+coreml prediction metrics
+{'samples': 200000, 'rmse': 0.0366742416417845, 'max_error': 1}
+
+
+
+real	56m53.429s
+user	56m29.592s
+sys	0m13.034s

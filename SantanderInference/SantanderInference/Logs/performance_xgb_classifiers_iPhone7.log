@@ -1,0 +1,16 @@
+Test Suite 'Selected tests' started at 2019-05-30 15:52:42.564
+Test Suite 'SantanderInferenceTests.xctest' started at 2019-05-30 15:52:42.565
+Test Suite 'SantanderInferenceTests' started at 2019-05-30 15:52:42.565
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testXGBClassifiersPerformance]' started.
+XGBClassifiers
+Number of predictions for class zero: 9529
+Number of predictions for class one: 471
+Number of failed predictions: 0
+Average time per prediction is 0.003957937407493592
+Test Case '-[SantanderInferenceTests.SantanderInferenceTests testXGBClassifiersPerformance]' passed (306.257 seconds).
+Test Suite 'SantanderInferenceTests' passed at 2019-05-30 15:57:48.823.
+	 Executed 1 test, with 0 failures (0 unexpected) in 306.257 (306.258) seconds
+Test Suite 'SantanderInferenceTests.xctest' passed at 2019-05-30 15:57:48.824.
+	 Executed 1 test, with 0 failures (0 unexpected) in 306.257 (306.259) seconds
+Test Suite 'Selected tests' passed at 2019-05-30 15:57:48.824.
+	 Executed 1 test, with 0 failures (0 unexpected) in 306.257 (306.260) seconds

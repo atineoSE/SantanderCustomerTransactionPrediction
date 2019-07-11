@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B521641229849DD007C2D72 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B521640229849DD007C2D72 /* main.swift */; };
+		0B9641D422D74700000DBF5F /* XgbClassifier1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B9641CF22D746FF000DBF5F /* XgbClassifier1.mlmodel */; };
+		0B9641D522D74700000DBF5F /* XgbClassifier3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B9641D022D74700000DBF5F /* XgbClassifier3.mlmodel */; };
+		0B9641D622D74700000DBF5F /* XgbClassifier5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B9641D122D74700000DBF5F /* XgbClassifier5.mlmodel */; };
+		0B9641D722D74700000DBF5F /* XgbClassifier2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B9641D222D74700000DBF5F /* XgbClassifier2.mlmodel */; };
+		0B9641D822D74700000DBF5F /* XgbClassifier4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0B9641D322D74700000DBF5F /* XgbClassifier4.mlmodel */; };
+		0BC1EFFA229E790100CB6EE1 /* SantanderBoostedTreeRegressor_100_000_it.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1EFF8229E790100CB6EE1 /* SantanderBoostedTreeRegressor_100_000_it.mlmodel */; };
+		0BC1EFFB229E790100CB6EE1 /* SantanderBoostedTreeRegressor_20_000_it.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1EFF9229E790100CB6EE1 /* SantanderBoostedTreeRegressor_20_000_it.mlmodel */; };
+		0BC1EFFD229E86CB00CB6EE1 /* SantanderBoostedTreeRegressor_2_500_it.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1EFFC229E86CB00CB6EE1 /* SantanderBoostedTreeRegressor_2_500_it.mlmodel */; };
+		0BC1F002229EBDD700CB6EE1 /* boosted_tree_model_utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1F001229EBDD700CB6EE1 /* boosted_tree_model_utils.swift */; };
+		0BC1F01922A003AF00CB6EE1 /* xgb_classifiers_utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC1F01822A003AE00CB6EE1 /* xgb_classifiers_utils.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B52163B229849DD007C2D72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B52163D229849DD007C2D72 /* SantanderCreateML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SantanderCreateML; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B521640229849DD007C2D72 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0B9641CF22D746FF000DBF5F /* XgbClassifier1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = XgbClassifier1.mlmodel; path = ../../../python/Models/XgbClassifier1.mlmodel; sourceTree = "<group>"; };
+		0B9641D022D74700000DBF5F /* XgbClassifier3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = XgbClassifier3.mlmodel; path = ../../../python/Models/XgbClassifier3.mlmodel; sourceTree = "<group>"; };
+		0B9641D122D74700000DBF5F /* XgbClassifier5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = XgbClassifier5.mlmodel; path = ../../../python/Models/XgbClassifier5.mlmodel; sourceTree = "<group>"; };
+		0B9641D222D74700000DBF5F /* XgbClassifier2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = XgbClassifier2.mlmodel; path = ../../../python/Models/XgbClassifier2.mlmodel; sourceTree = "<group>"; };
+		0B9641D322D74700000DBF5F /* XgbClassifier4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = XgbClassifier4.mlmodel; path = ../../../python/Models/XgbClassifier4.mlmodel; sourceTree = "<group>"; };
+		0BC1EFF8229E790100CB6EE1 /* SantanderBoostedTreeRegressor_100_000_it.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SantanderBoostedTreeRegressor_100_000_it.mlmodel; path = SantanderCreateML/Models/SantanderBoostedTreeRegressor_100_000_it.mlmodel; sourceTree = SOURCE_ROOT; };
+		0BC1EFF9229E790100CB6EE1 /* SantanderBoostedTreeRegressor_20_000_it.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SantanderBoostedTreeRegressor_20_000_it.mlmodel; path = SantanderCreateML/Models/SantanderBoostedTreeRegressor_20_000_it.mlmodel; sourceTree = SOURCE_ROOT; };
+		0BC1EFFC229E86CB00CB6EE1 /* SantanderBoostedTreeRegressor_2_500_it.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SantanderBoostedTreeRegressor_2_500_it.mlmodel; path = SantanderCreateML/Models/SantanderBoostedTreeRegressor_2_500_it.mlmodel; sourceTree = SOURCE_ROOT; };
+		0BC1F001229EBDD700CB6EE1 /* boosted_tree_model_utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boosted_tree_model_utils.swift; sourceTree = "<group>"; };
+		0BC1F01822A003AE00CB6EE1 /* xgb_classifiers_utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = xgb_classifiers_utils.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B52163A229849DD007C2D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B1606C1229DDA0600D8739C /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				0B9641CF22D746FF000DBF5F /* XgbClassifier1.mlmodel */,
+				0B9641D222D74700000DBF5F /* XgbClassifier2.mlmodel */,
+				0B9641D022D74700000DBF5F /* XgbClassifier3.mlmodel */,
+				0B9641D322D74700000DBF5F /* XgbClassifier4.mlmodel */,
+				0B9641D122D74700000DBF5F /* XgbClassifier5.mlmodel */,
+				0BC1EFFC229E86CB00CB6EE1 /* SantanderBoostedTreeRegressor_2_500_it.mlmodel */,
+				0BC1EFF9229E790100CB6EE1 /* SantanderBoostedTreeRegressor_20_000_it.mlmodel */,
+				0BC1EFF8229E790100CB6EE1 /* SantanderBoostedTreeRegressor_100_000_it.mlmodel */,
+			);
+			path = MLModels;
+			sourceTree = "<group>";
+		};
+		0B521634229849DD007C2D72 = {
+			isa = PBXGroup;
+			children = (
+				0B52163F229849DD007C2D72 /* SantanderCreateML */,
+				0B52163E229849DD007C2D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B52163E229849DD007C2D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B52163D229849DD007C2D72 /* SantanderCreateML */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B52163F229849DD007C2D72 /* SantanderCreateML */ = {
+			isa = PBXGroup;
+			children = (
+				0B1606C1229DDA0600D8739C /* MLModels */,
+				0B521640229849DD007C2D72 /* main.swift */,
+				0BC1F01822A003AE00CB6EE1 /* xgb_classifiers_utils.swift */,
+				0BC1F001229EBDD700CB6EE1 /* boosted_tree_model_utils.swift */,
+			);
+			path = SantanderCreateML;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B52163C229849DD007C2D72 /* SantanderCreateML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B521644229849DD007C2D72 /* Build configuration list for PBXNativeTarget "SantanderCreateML" */;
+			buildPhases = (
+				0B521639229849DD007C2D72 /* Sources */,
+				0B52163A229849DD007C2D72 /* Frameworks */,
+				0B52163B229849DD007C2D72 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SantanderCreateML;
+			productName = SantanderCreateML;
+			productReference = 0B52163D229849DD007C2D72 /* SantanderCreateML */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B521635229849DD007C2D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = adriantineo.com;
+				TargetAttributes = {
+					0B52163C229849DD007C2D72 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B521638229849DD007C2D72 /* Build configuration list for PBXProject "SantanderCreateML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0B521634229849DD007C2D72;
+			productRefGroup = 0B52163E229849DD007C2D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B52163C229849DD007C2D72 /* SantanderCreateML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B521639229849DD007C2D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC1F002229EBDD700CB6EE1 /* boosted_tree_model_utils.swift in Sources */,
+				0B9641D422D74700000DBF5F /* XgbClassifier1.mlmodel in Sources */,
+				0BC1EFFA229E790100CB6EE1 /* SantanderBoostedTreeRegressor_100_000_it.mlmodel in Sources */,
+				0BC1F01922A003AF00CB6EE1 /* xgb_classifiers_utils.swift in Sources */,
+				0B9641D822D74700000DBF5F /* XgbClassifier4.mlmodel in Sources */,
+				0B521641229849DD007C2D72 /* main.swift in Sources */,
+				0BC1EFFD229E86CB00CB6EE1 /* SantanderBoostedTreeRegressor_2_500_it.mlmodel in Sources */,
+				0BC1EFFB229E790100CB6EE1 /* SantanderBoostedTreeRegressor_20_000_it.mlmodel in Sources */,
+				0B9641D622D74700000DBF5F /* XgbClassifier5.mlmodel in Sources */,
+				0B9641D722D74700000DBF5F /* XgbClassifier2.mlmodel in Sources */,
+				0B9641D522D74700000DBF5F /* XgbClassifier3.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B521642229849DD007C2D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B521643229849DD007C2D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		0B521645229849DD007C2D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDVRK9UE68;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0B521646229849DD007C2D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WDVRK9UE68;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B521638229849DD007C2D72 /* Build configuration list for PBXProject "SantanderCreateML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B521642229849DD007C2D72 /* Debug */,
+				0B521643229849DD007C2D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B521644229849DD007C2D72 /* Build configuration list for PBXNativeTarget "SantanderCreateML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B521645229849DD007C2D72 /* Debug */,
+				0B521646229849DD007C2D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B521635229849DD007C2D72 /* Project object */;
+}

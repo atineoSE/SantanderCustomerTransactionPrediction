@@ -1,0 +1,24 @@
+Using full data set
+Creating 3 models for each category (classifier/regressor)
+Creating only regressor (no classifier)
+Train Stage.
+
+Load Train Data.
+
+Shape of Train Data: (200000, 202)
+
+Model Fitting...
+
+Fold 1
+Evaluation: mean error for model xgb_fold_regressor_1: 0.08268509829540538
+
+Fold 2
+Evaluation: mean error for model xgb_fold_regressor_2: 0.08063223907988185
+
+Fold 3
+Evaluation: mean error for model xgb_fold_regressor_3: 0.0823560164406083
+
+
+real	607m55.810s
+user	602m0.592s
+sys	1m42.321s

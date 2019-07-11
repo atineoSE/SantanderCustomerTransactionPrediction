@@ -1,0 +1,7 @@
+main.swift:10:8: error: no such module 'CreateML'
+import CreateML
+       ^
+
+real	0m5.950s
+user	0m3.717s
+sys	0m1.360s

@@ -1,0 +1,11 @@
+xcuserdata/
+.DS_Store
+.Trashes
+*.lock
+*~.nib
+build/
+data
+SantanderCreateML/SantanderCreateML/Models
+SantanderCreateML/SantanderCreateML/Data
+python/Models
+

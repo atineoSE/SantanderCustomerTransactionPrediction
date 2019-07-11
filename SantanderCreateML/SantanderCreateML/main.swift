@@ -248,11 +248,11 @@ func dump(table: MLDataTable, comment: String) {
 // MARK: main
 let start = CFAbsoluteTimeGetCurrent()
 
-let imac = false
+let imac = true
 let prefixRows: Int? = nil
 let basePath: String
 if imac {
-    basePath = "/Volumes/MEDIA&DEV/dev/ML_data/SantanderCustomerTransactionPrediction/"
+    basePath = "/Volumes/Data/ML_data_catalina/SantanderCustomerTransactionPrediction/"
 } else {
     basePath = "/Users/adriantineo/dev/ML_data/SantanderCustomerTransactionPrediction/"
 }
